@@ -1,0 +1,27 @@
+.badge {
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    min-width: 10px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 5px
+}
+
+.badge.badge-default {
+    background-color: #B0BEC5
+}
+
+.badge.badge-outlined {
+    background-color: transparent
+}
+
+.badge.badge-outlined.badge-default {
+    border-color: #B0BEC5;
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+}
+
