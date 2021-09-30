@@ -4,9 +4,9 @@ const Cards = (props) => {
     return (
        <div className="card rounded-0">
             <div className="card-body">
-                <div className="d-flex align-content-center flex-wrap">
+                <div className="d-flex align-content-center">
                     <div>
-                        <img className="rounded float-left" style={{width:150,height:150,resizeMode:'contain'}}
+                        <img className="rounded float-left" style={{width:130,height:130,resizeMode:'contain'}}
                              src={props.imgOwner} alt="Card image cap"
                         />
                     </div>
